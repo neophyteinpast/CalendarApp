@@ -62,8 +62,6 @@ public class CalendarExample {
         catch (IOException e) {
             e.printStackTrace();
         }
-
-        System.out.println("The amount of days is: " + amountOfDays);
         countWeekends(amountOfDays);
     }
 
